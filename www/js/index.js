@@ -47,3 +47,14 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
+// Get device info
+function getDeviceInfo() {
+	return {
+		cordova: device.cordova,
+		model: device.model,
+		platform: device.platform,
+		uuid: device.uuid,
+		version: device.version
+	}
+}
