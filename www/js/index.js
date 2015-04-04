@@ -43,7 +43,7 @@ var app = {
 
 	// Trying to get the db
 	console.log("going to open a db file");
-	testDb();
+	//testDb();
 	console.log("after db");
 
 	// Test the file system path
